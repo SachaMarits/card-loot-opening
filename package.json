@@ -1,0 +1,45 @@
+{
+  "name": "card-loot-opening",
+  "version": "1.0.0",
+  "description": "Create beautiful looting cards with holographic, bronze, silver, gold and hover effects !",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SachaMarits/card-loot-opening.git"
+  },
+  "keywords": [
+    "card",
+    "loot",
+    "looting",
+    "card",
+    "opening",
+    "card",
+    "opening",
+    "card",
+    "looting",
+    "effect",
+    "card",
+    "opening",
+    "effect",
+    "holographic",
+    "bronze",
+    "silver",
+    "gold",
+    "hover"
+  ],
+  "author": "Sacha Marits",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SachaMarits/card-loot-opening/issues"
+  },
+  "homepage": "https://github.com/SachaMarits/card-loot-opening#readme",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.7.0"
+  }
+}
