@@ -1,0 +1,52 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+:root {
+    --lightBlue: #263880F2;
+    --darkBlue: #171933;
+}
+
+
+.page-header {
+    background-color: var(--lightBlue);
+    background-image: linear-gradient(120deg, var(--lightBlue), var(--darkblue));
+}
+
+.main-content h1 {
+    display: none;
+}
+
+.main-content h1, .main-content h2 {
+    color: var(--lightBlue);
+}
+
+.main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    color: var(--darkblue);
+}
+
+a[href="#table-of-contents"] {
+    border-radius: 100%;
+    background-image: linear-gradient(120deg, var(--lightBlue), var(--darkblue));
+    height: 48px;
+    width: 48px;
+    color: white;
+    display: flex;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    cursor: pointer;
+    padding-top: 2px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: .25s;
+    &:hover {
+        text-decoration: none;
+        height: 52px;
+        width: 52px;
+        bottom: 30px;
+        right: 30px;
+    }
+}
