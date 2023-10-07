@@ -1,7 +1,7 @@
 {
   "name": "card-loot-opening",
   "version": "1.0.0",
-  "description": "Create beautiful looting cards with holographic, bronze, silver, gold and hover effects !",
+  "description": "Create beautiful looting cards with holographic and hover effects !",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,3 +1,5 @@
+/* #region LootCard */
+
 .spinner {
   animation: rotation 1.4s linear infinite;
 }
@@ -7,6 +9,10 @@
   stroke-dashoffset: 0;
   transform-origin: center;
   animation: dash 1.4s ease-in-out infinite;
+}
+
+.landscape { 
+  transform: rotateZ(90deg); 
 }
 
 @keyframes rotation {
@@ -19,16 +25,8 @@
 }
 
 :root {
-  --color1: rgb(0, 231, 255);
-  --color2: rgb(255, 0, 231);
-  --or1: #a2aa2b;
-  --or2: #867b3b;
-  --argent1: #d4d4ce;
-  --argent2: #a9b2b3;
-  --bronze1: #b89149;
-  --bronze2: #7e6123;
-  --normal1: #666666;
-  --normal2: #4d4d4d;
+  --color1: rgb(79, 103, 131);
+  --color2: rgb(121, 94, 124);
 }
 
 .card-holo {
@@ -61,33 +59,20 @@
   box-shadow: -20px -20px 30px -25px var(--color1), 20px 20px 30px -25px var(--color2), -7px -7px 10px -5px var(--color1), 7px 7px 10px -5px var(--color2), 0 0 13px 4px rgba(255, 255, 255, 0.3), 0 55px 35px -20px rgba(0, 0, 0, 0.5);
 }
 
-
-.card-holo.Or {
-  --color1: var(--or1);
-  --color2: var(--or2);
+.card-holo.holographic {
+  --color1: #ce6387;
+  --color2: #bb9753;
+  --color3: #43c783;
+  --color4: #489ab3;
+  --color5: #934fb3;
 }
 
-.card-holo.Argent {
-  --color1: var(--argent1);
-  --color2: var(--argent2);
-}
-
-.card-holo.Bronze {
-  --color1: var(--bronze1);
-  --color2: var(--bronze2);
-}
-
-.card-holo.holo {
-  --color1: #ec9bb6;
-  --color2: #ccac6f;
-  --color3: #69e4a5;
-  --color4: #8ec5d6;
-  --color5: #b98cce;
-}
-
-.card-holo.normal {
-  --color1: var(--normal1);
-  --color2: var(--normal2);
+.card-holo.legendary {
+  --color1: #d6ab34;
+  --color2: #db2e2e;
+  --color3: #e0542a;
+  --color4: #d66835;
+  --color5: #dbcf20;
 }
 
 .card-holo:before,
@@ -165,10 +150,10 @@
   -webkit-animation: holoCard 12s ease 0s 1;
           animation: holoCard 12s ease 0s 1;
 }
-.card-holo.Terrain.animated {
+.card-holo.landscape.animated {
   transition: none;
-  -webkit-animation: holoCardTerrain 12s ease 0s 1;
-          animation: holoCardTerrain 12s ease 0s 1;
+  -webkit-animation: holoCardLandscape 12s ease 0s 1;
+          animation: holoCardLandscape 12s ease 0s 1;
 }
 .card-holo.animated:before {
   transition: none;
@@ -323,7 +308,7 @@
   }
 }
 
-@-webkit-keyframes holoCardTerrain {
+@-webkit-keyframes holoCardLandscape {
   0%, 100% {
     transform: rotateZ(90deg) rotateX(0deg) rotateY(0deg);
   }
@@ -340,7 +325,7 @@
     transform: rotateZ(87deg) rotateX(-12deg) rotateY(-27deg);
   }
 }
-@keyframes holoCardTerrain {
+@keyframes holoCardLandscape {
   0%, 100% {
     transform: rotateZ(90deg) rotateX(0deg) rotateY(0deg);
   }
@@ -358,9 +343,6 @@
   }
 }
 
-.card-holo.holo:hover {
-  box-shadow: 0 0 30px -5px white, 0 0 10px -2px white, 0 55px 35px -20px rgba(0, 0, 0, 0.5);
-}
 
 .card-holo.holo:hover:before,
 .card-holo.holo.active:before {
@@ -449,3 +431,5 @@
     transform: scale3d(1, 1, 1);
   }
 }
+
+/* #endregion LootCard */
