@@ -48,10 +48,10 @@ Here you can define several customizable props.
 | Prop                | Type   | Usage | Purpose                                        |
 | ------------------- |:------:| --|-----------------------------------------------|
 | img                 | string || Card's image url                |
-| shineOptions        | Object |`{ color1, color2 }`| Create a gradient from those two colors when holographic colors are not set                          |
-| holographicOptions  | Object |`{ glow, color1, color2, color3, color4, color5 }`| Create a gradient and a better effect, set glow to true if you want to make it glow when hovering the card       |
-| shadowOptions       | Object |`{ default: { color1, color2 }, hover: { color1, color2 } }`| Set the default shadow and the shadow when hovering the card |
-| size                | Object |`{ height, width }` | Set the card's size |
+| shineOptions        | Object |`{ color1: "string", color2: "string" }`| Create a gradient from those two colors when holographic colors are not set                          |
+| holographicOptions  | Object |`{ glow: true, color1: "string", color2: "string", color3: "string", color4: "string", color5: "string" }`| Create a gradient and a better effect, set glow to true if you want to make it glow when hovering the card       |
+| shadowOptions       | Object |`{ default: { color1: "string", color2: "string" }, hover: { color1: "string", color2: "string" } }`| Set the default shadow and the shadow when hovering the card |
+| size                | Object |`{ height: 410, width: 300 }` | Set the card's size |
 
 
 <a href="#loot-card">^</a>
