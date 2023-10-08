@@ -7,8 +7,8 @@ React Package to enchance your looting cards with stunning holographic effects !
 
 - [Getting started](#getting-started)
 - [Dependencies](#dependencies)
+- [Live Demo](#live-demo)
 - [Documentation](#documentation)
-<!-- - [Live Demo]({#live-demo}) -->
 
 ## Getting Started
 
@@ -54,7 +54,13 @@ Many customizable effects:
 
 ---
 
-## [Documentation](https://sachamarits.github.io/card-loot-opening)
+## [Live Demo](https://card-loot-opening.netlify.app/)
+
+Live demo: https://card-loot-opening.netlify.app/
+
+---
+
+## Documentation
 
 ### Basic usage
 
@@ -103,10 +109,3 @@ Here you can define several customizable props.
 | shadowOptions       | Object |`{ default: { color1, color2 }, hover: { color1, color2 } }`| Set the default shadow and the shadow when hovering the card |
 | size                | Object |`{ height, width }` | Set the card's size |
 | rarityPreset        | string | "legendary" or "holographic" | Use preset effect |
-<!-- 
----
-
-## [Live Demo](https://well-rounded-react-template.sachamarits.be/)
-
-Live demo: https://well-rounded-react-template.sachamarits.be/ <br/>
-Most components can be seen within: `Template > Components` and `Template > Crud Table`. -->
