@@ -34,7 +34,7 @@ Now you are ready to use the imported LootCard component ! 🔥
 
 ### Required Peer Dependencies
 
-Only React is Need to run Card Loot Opening:
+Only React is needed to run Card Loot Opening:
 
   * [**react**](https://www.npmjs.com/package/react)
 
